@@ -26,7 +26,6 @@
 		8E6B81C72781F1D000B02EF5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E6B81C62781F1D000B02EF5 /* Alamofire */; };
 		8E6B81CB2781F23C00B02EF5 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B81CA2781F23C00B02EF5 /* NetworkingProvider.swift */; };
 		8E6B81CE27822B6000B02EF5 /* logo-frogmi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B81CD27822B6000B02EF5 /* logo-frogmi.png */; };
-		8E6B81D0278240C000B02EF5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B81CF278240C000B02EF5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,7 @@
 		8E6B81C32781EE6400B02EF5 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		8E6B81CA2781F23C00B02EF5 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
 		8E6B81CD27822B6000B02EF5 /* logo-frogmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-frogmi.png"; path = "../../../../Downloads/logo-frogmi.png"; sourceTree = "<group>"; };
-		8E6B81CF278240C000B02EF5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../Downloads/README.md; sourceTree = "<group>"; };
+		8E6B81D127824DFB00B02EF5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +100,6 @@
 		8E6B81772781E9C000B02EF5 = {
 			isa = PBXGroup;
 			children = (
-				8E6B81CF278240C000B02EF5 /* README.md */,
 				8E6B81822781E9C000B02EF5 /* pruebaTecnica */,
 				8E6B81992781E9CA00B02EF5 /* pruebaTecnicaTests */,
 				8E6B81A32781E9CB00B02EF5 /* pruebaTecnicaUITests */,
@@ -122,6 +120,7 @@
 		8E6B81822781E9C000B02EF5 /* pruebaTecnica */ = {
 			isa = PBXGroup;
 			children = (
+				8E6B81D127824DFB00B02EF5 /* README.md */,
 				8E6B81CC27822B4800B02EF5 /* Assets */,
 				8E6B81C12781EE3800B02EF5 /* Network */,
 				8E6B81832781E9C000B02EF5 /* AppDelegate.swift */,
@@ -315,7 +314,6 @@
 				8E6B81B82781EB4C00B02EF5 /* MyCustomHomeTableViewCell.xib in Resources */,
 				8E6B81BC2781EB6B00B02EF5 /* MyCustomLoadingTableViewCell.xib in Resources */,
 				8E6B81CE27822B6000B02EF5 /* logo-frogmi.png in Resources */,
-				8E6B81D0278240C000B02EF5 /* README.md in Resources */,
 				8E6B81C02781EB8400B02EF5 /* MyCustomErrorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
