@@ -1,6 +1,6 @@
 # Prueba Tecnica
 
-Esta es una prueba tecnica de uso de TableView y llamadas a servicio con Alamofire.
+Esta es una prueba tecnica de uso de TableView y llamadas a servicio con Alamofire
 
 ## Installation
 
